@@ -1,4 +1,4 @@
-import { HashRouter,BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import { createRoot } from 'react-dom/client'
 import './index.css'
@@ -10,7 +10,7 @@ import MyAppointments from './MyAppointments'
 import MedicalRecords from './MedicalRecords'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path='/' element={<App/>} />
       <Route path='/Dashboard' element={<Dashboard/>} />
@@ -20,5 +20,5 @@ createRoot(document.getElementById('root')).render(
       <Route path='/view-appointments' element={<MyAppointments/>} />
       <Route path='/medical-records' element={<MedicalRecords/>} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 )
