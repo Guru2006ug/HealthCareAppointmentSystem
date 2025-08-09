@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Guru2006ug.github.io/healthwebs/",
+  "homepage": "https://Guru2006ug.github.io/HealthCareAppointmentSystem/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
